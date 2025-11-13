@@ -1,0 +1,12 @@
+name: biobloom_env
+channels:
+        - conda-forge
+        - bioconda
+        - defaults
+dependencies: 
+        - sdsl-lite
+        - google-sparsehash
+        - boost
+        - zlib       
+        - biobloomtools
+        
