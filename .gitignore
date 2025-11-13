@@ -2,5 +2,5 @@
 human_host_filtration/
 sra-human-scrubber/
 deacon_results/
-biobloom_results
-.Rproj.user
+biobloom_results/
+logs/
