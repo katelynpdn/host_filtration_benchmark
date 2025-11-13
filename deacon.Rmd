@@ -1,0 +1,73 @@
+---
+title: "Deacon Parameter Search Analysis"
+author: "Katelyn Nguyen"
+date: "2025-11-13"
+output: html_document
+---
+```{r setup}
+library(ggplot2)
+library(ggrepel)
+library(readr)
+library(dplyr)
+library(plotly)
+```
+
+# Load Data
+```{r data}
+# CHANGE DATA PATH BELOW
+deacon_results <- read_csv("/Users/katelynnguyen/Downloads/deacon_param_results.csv") %>%
+  mutate(
+    tool = "deacon",
+    param1 = as.character(a),
+    param2 = r
+  )
+biobloom_results <- read_csv("/Users/katelynnguyen/Downloads/biobloom_param_results.csv") %>%
+  mutate(
+    tool = "biobloom",
+    param1 = S,
+    param2 = s
+  )
+combined_results <- bind_rows(deacon_results, biobloom_results)
+
+# One label for parameters
+# Keep first occurrence of duplicates
+combined_results_unique <- combined_results %>%
+  distinct(fp, fn, .keep_all = TRUE) %>%
+  mutate(label = paste0("(", param1, ",", param2, ")"))
+
+glimpse(combined_results_unique)
+```
+
+# Plot FP vs FN
+```{r data}
+# Plot FP vs FN
+ggplot(combined_results_unique, aes(x = fp, y = fn, label = label)) +
+geom_point(color = "steelblue", size = 3) +
+geom_text_repel(vjust = -1.6, size = 3, , segment.color = NA) +
+theme_minimal(base_size = 14) +
+labs(
+title = "False Positives vs False Negatives",
+x = "False Positives (FP)",
+y = "False Negatives (FN)",
+color = "Tool",
+shape = "Tool"
+) +
+theme(plot.title = element_text(hjust = 0.5), plot.margin = margin(20, 40, 20, 40)) +
+  coord_cartesian(clip = "off")
+```
+
+# Plot Runtime
+```{r plot2}
+ggplot(deacon_results, aes(x = r, y = runtime, color = factor(r))) +
+  geom_line() +
+  geom_point() +
+  theme_minimal(base_size = 14) +
+  labs(
+    title = "Runtime vs r (Grouped by a)",
+    x = "r parameter",
+    y = "Runtime (s)",
+    color = "r value"
+  ) +
+  theme(plot.title = element_text(hjust = 0.5))
+```
+
