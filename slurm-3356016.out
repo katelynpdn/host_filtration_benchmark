@@ -1,0 +1,5 @@
+TIME =  seconds
+MEMORY =  kB
+./biobloom_param_search.sh: line 114: 0
+0: syntax error in expression (error token is "0")
+Parameter search complete. Results saved to ./deacon_results/parameter_results.csv
