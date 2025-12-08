@@ -1,182 +1,99 @@
 #!/bin/bash
-# Usage: ./biobloom_param_search.sh <host_fasta_files> <reads_file_R1> <reads_file_R2> <output_dir>
+# Usage: ./biobloom_param_search.sh <bloom_filter> <reads_R1> <reads_R2> <output_dir>
 
-set -e  # Exit on error
+set -euo pipefail
 
-# Check arguments
 if [ "$#" -lt 4 ]; then
-    echo "Usage: $0 <host_fasta_files> <reads_file_R1> <reads_file_R2> <output_dir>"
-    echo "  host_fasta_files: comma-separated list of host FASTA files"
-    echo "  reads_file_R1: FASTQ/FASTA file containing reads to test"
-    echo "  reads_file_R2: FASTQ/FASTA file containing reads to test"
-    echo "  output_dir: directory to store results"
+    echo "Usage: $0 <bloom_filter> <reads_file_R1> <reads_file_R2> <output_dir>"
     exit 1
 fi
 
-BLOOM_FILTER=$1
-R1_FILE=$2
-R2_FILE=$3
-OUTPUT_DIR=$4
+BLOOM_FILTER="$1"
+R1_FILE="$2"
+R2_FILE="$3"
+OUTPUT_DIR="$4"
 
-mkdir -p $OUTPUT_DIR
-mkdir -p $OUTPUT_DIR/logs
-mkdir -p $OUTPUT_DIR/filters
-mkdir -p $OUTPUT_DIR/results
+mkdir -p "$OUTPUT_DIR"/{logs,filters,biobloom_results}
 
-# Log file
 LOG_FILE="$OUTPUT_DIR/logs/biobloom_param_search_$(date +%Y%m%d_%H%M%S).log"
+RESULTS_CSV="$OUTPUT_DIR/biobloom_results/parameter_results.csv"
 
-# Function to measure memory, time usage
 measure_benchmark() {
-    local output
-    output=$(/usr/bin/time -v "$@" 2>&1 | awk '
+   {
+        /usr/bin/time -v "$@" 1>&3
+    } 2>&1 | awk '
         /User time \(seconds\):/ {user=$4}
         /System time \(seconds\):/ {sys=$4}
         /Maximum resident set size \(kbytes\):/ {rss=$6}
-        END { printf "user_sys=%.3f rss=%d", user+sys, rss }')
-    echo "$output"
+        END { printf "user_sys=%.3f\nrss=%d\n", user+sys, rss }
+    '
 }
 
-# Calculate unique k-mers in host files
-# echo "Calculating unique k-mers in host files..." | tee -a $LOG_FILE
-# for K in 21 25 31; do
-#     echo "Counting k-mers with k=$K..." | tee -a $LOG_FILE
-#     NUM_KMERS=$(python count-kmers.py $K $HOST_FILES)
-#     echo "Found $NUM_KMERS unique ${K}-mers" | tee -a $LOG_FILE
-    
-#     # Save to parameter list
-#     echo "$K,$NUM_KMERS" >> $OUTPUT_DIR/kmer_counts.csv
-# done
-
-# Extract default k-mer count for k=25 (BioBloom default)
-# DEFAULT_K=25
-# DEFAULT_NUM_KMERS=$(grep "^$DEFAULT_K," $OUTPUT_DIR/kmer_counts.csv | cut -d',' -f2)
-
-# Parameter combinations to test
-# K_VALUES=(21 25 31)
-# NUM_ELE_FACTORS=(0.8 1.0 1.2)  # Factors to multiply the k-mer count by
-# FPR_VALUES=(0.001 0.0075 0.01)  # False positive rates
-binomial_s_VALUES=(10 12 13 15 17 19 20 40 60 80 100 120 130 140)
-
-# Results file header
-RESULTS_CSV="$OUTPUT_DIR/deacon_results/parameter_results.csv"
-if [ ! -f "$RESULTS_CSV" ]; then
-    echo "S,s,runtime,memory,tp,fp,tn,fn" > "$RESULTS_CSV"
-fi
-LOG_FILE="$OUTPUT_DIR/logs/param_search_$(date +%Y%m%d_%H%M%S).log"
-
-# Function to measure memory, time usage
-measure_benchmark() {
-    local output
-    output=$(/usr/bin/time -v "$@" 2>&1 | awk '
-        /User time \(seconds\):/ {user=$4}
-        /System time \(seconds\):/ {sys=$4}
-        /Maximum resident set size \(kbytes\):/ {rss=$6}
-        END {
-            printf "user_sys=%.3f\nrss=%d\n", user+sys, rss
-        }')
-    echo "$output"
-}
-
-# Count reads
 FIRST_CHAR=$(head -c1 "$R1_FILE")
 if [[ "$FIRST_CHAR" == ">" ]]; then
-    # FASTA format
     NUM_READS=$(grep -c '^>' "$R1_FILE")
 elif [[ "$FIRST_CHAR" == "@" ]]; then
-    # FASTQ format
     NUM_READS=$(( $(wc -l < "$R1_FILE") / 4 ))
 else
-    echo "Error: File format not detected (not FASTA or FASTQ)." >&2
+    echo "ERROR: Cannot detect FASTA/FASTQ format for $R1_FILE" >&2
     exit 1
 fi
+echo "Detected $NUM_READS reads in input." | tee -a "$LOG_FILE"
 
-# Calculate unique k-mers in host files
-# echo "Calculating unique k-mers in host files..." | tee -a $LOG_FILE
-# for K in 21 25 31; do
-#     echo "Counting k-mers with k=$K..." | tee -a $LOG_FILE
-#     NUM_KMERS=$(python count-kmers.py $K $HOST_FILES)
-#     echo "Found $NUM_KMERS unique ${K}-mers" | tee -a $LOG_FILE
-    
-#     # Save to parameter list
-#     echo "$K,$NUM_KMERS" >> $OUTPUT_DIR/kmer_counts.csv
-# done
-
-# Extract default k-mer count for k=25 (BioBloom default)
-# DEFAULT_K=25
-# DEFAULT_NUM_KMERS=$(grep "^$DEFAULT_K," $OUTPUT_DIR/kmer_counts.csv | cut -d',' -f2)
-
-# Parameter combinations to test
-# K_VALUES=(21 25 31)
-# NUM_ELE_FACTORS=(0.8 1.0 1.2)  # Factors to multiply the k-mer count by
-# FPR_VALUES=(0.001 0.0075 0.01)  # False positive rates
-S_VALUES=("binomial" "harmonic")
-BINOMIAL_SCORE_VALUES=(10 12 13 15 17 19 20 40 60 80 100 120 130 140)
+S_VALUES=("binomial")
 HARMONIC_SCORE_VALUES=(0.1 0.15 0.2 0.25 0.3 0.4 0.5 0.6 0.7 0.8 0.9)
+BINOMIAL_SCORE_VALUES=(10 12 13 15 17 19 20 40 60 80 100 120 130 140)
 
-# Results file header
-RESULTS_CSV="$OUTPUT_DIR/biobloom_results/parameter_results.csv"
 if [ ! -f "$RESULTS_CSV" ]; then
-    echo "S,s,runtime,memory,tp,fp,tn,fn" > "$RESULTS_CSV"
+    echo "S,score,runtime,memory,tp,fp,tn,fn" > "$RESULTS_CSV"
 fi
 
-# Run parameter search
-# for K in "${K_VALUES[@]}"; do
-# for S in $S_VALUES; do
-# if [[ S == "binomial" ]]; then
-#     for score in $BINOMIAL_SCORE_VALUES; do
-#     done
-# fi
+for S in "${S_VALUES[@]}"; do
+    echo "Testing scoring scheme: $S" | tee -a "$LOG_FILE"
 
-# Run parameter search
-for K in "${K_VALUES[@]}"; do
-    # Get k-mer count for this k
-    # FILTER_PREFIX="$OUTPUT_DIR/filter"
-    
-    # echo "Creating filter" | tee -a $LOG_FILE
-    
-    # Measure creation time and memory
-    # CREATION_BENCHMARK=$(measure_benchmark biobloommaker -t 8 -k $K -n $NUM_ELE -f $FPR -p $FILTER_PREFIX $HOST_FILES)
-    
-    # echo "Filter created: ${CREATION_BENCHMARK}" | tee -a $LOG_FILE
-    
-    # Run biobloomcategorizer
-    RESULTS_FILE="$OUTPUT_DIR/results/results_k${K}_n${NUM_ELE}_fpr${FPR}_reads${SIZE}.tsv"
-    eval "$(measure_benchmark biobloomcategorizer -t 8 -f "$BLOOM_FILTER" -s 1 -e -i -p "$OUTPUT_DIR/biobloom_results/categorized" $R1_FILE $R2_FILE > $RESULTS_FILE)"
-# Get k-mer count for this k
-# NUM_KMERS=$(grep "^$K," $OUTPUT_DIR/kmer_counts.csv | cut -d',' -f2)
-# FILTER_PREFIX="$OUTPUT_DIR/filter"
+    if [[ "$S" == "harmonic" ]]; then
+        SCORE_LIST=("${HARMONIC_SCORE_VALUES[@]}")
+    else
+        SCORE_LIST=("${BINOMIAL_SCORE_VALUES[@]}")
+    fi
 
-# echo "Creating filter" | tee -a $LOG_FILE
+    for score in "${SCORE_LIST[@]}"; do
+        echo "Running BioBloomCategorizer with S=$S score=$score" | tee -a "$LOG_FILE"
 
-# Measure creation time and memory
-# CREATION_BENCHMARK=$(measure_benchmark biobloommaker -t 8 -k $K -n $NUM_ELE -f $FPR -p $FILTER_PREFIX $HOST_FILES)
+        RESULTS_FILE="$OUTPUT_DIR/biobloom_results/results_${S}_${score}.txt"
 
-# echo "Filter created: ${CREATION_BENCHMARK}" | tee -a $LOG_FILE
+        BENCHMARK=$(
+        { /usr/bin/time -v biobloomcategorizer -t 8 \
+            -f "$BLOOM_FILTER" -s "$score" -S "$S" -d -e -i \
+            -p "$OUTPUT_DIR/biobloom_results" \
+            "$R1_FILE" "$R2_FILE" \
+            > "$RESULTS_FILE"; 
+        } 2>&1 | awk '
+            /User time \(seconds\):/ {user=$4}
+            /System time \(seconds\):/ {sys=$4}
+            /Maximum resident set size \(kbytes\):/ {rss=$6}
+            END {printf "user_sys=%.3f\nrss=%d\n", user+sys, rss}
+        '
+        )
 
-for score in $HARMONIC_SCORE_VALUES; do
-    # Run biobloomcategorizer
-    RESULTS_FILE="$OUTPUT_DIR/biobloom_results/results_k${K}_n${NUM_ELE}_fpr${FPR}_reads${SIZE}"
-    eval "$(measure_benchmark biobloomcategorizer -t 8 -f "$BLOOM_FILTER" -s $score -e -i -p "$OUTPUT_DIR/biobloom_results/categorized" $R1_FILE $R2_FILE > $RESULTS_FILE)"
-    TIME=$user_sys
-    MEMORY=$rss
+        eval "$BENCHMARK"
+        TIME=$user_sys
+        MEMORY=$rss
 
-    echo "TIME = $TIME seconds"| tee -a $LOG_FILE
-    echo "MEMORY = $MEMORY kB" | tee -a $LOG_FILE
-    # Parse results to get TP/FP/TN/FN
-    TP=$(grep -c "HUMAN" "$RESULTS_FILE" 2>/dev/null)
-    TP=${TP:-0}
-    FP=$(grep -c "MICROBE" "$RESULTS_FILE" 2>/dev/null)
-    FP=${FP:-0}
-    FN=$(( NUM_READS - TP ))
-    TN=$(( NUM_READS - FP ))
+        echo "TIME = $TIME sec"  | tee -a "$LOG_FILE"
+        echo "MEMORY = $MEMORY kB" | tee -a "$LOG_FILE"
 
-    # echo "$S,$score,$TIME,$MEMORY,$TP,$FP,$TN,$FN" >> "$RESULTS_CSV"
-    echo "$score,$TIME,$MEMORY,$TP,$FP,$TN,$FN" >> "$RESULTS_CSV"
+        TP=$(grep -c "HUMAN" "$RESULTS_FILE" || true)
+        FP=$(grep -c "MICROBE" "$RESULTS_FILE" || true)
+        FN=$(( NUM_READS - TP ))
+        TN=$(( NUM_READS - FP ))
 
-    echo "Results for s=$score: TP=$TP, FP=$FP, TN=$TN, FN=$FN" | tee -a $LOG_FILE
+        echo "$S,$score,$TIME,$MEMORY,$TP,$FP,$TN,$FN" >> "$RESULTS_CSV"
+
+        echo "TP=$TP FP=$FP TN=$TN FN=$FN" | tee -a "$LOG_FILE"
+        echo "-------------------------------------------------" | tee -a "$LOG_FILE"
+    done
 done
-# done
-# done
 
-echo "Parameter search complete. Results saved to $RESULTS_CSV" | tee -a $LOG_FILE
+echo "Parameter search complete. Results saved to $RESULTS_CSV" | tee -a "$LOG_FILE"
+

@@ -3,5 +3,9 @@ human_host_filtration/
 sra-human-scrubber/
 deacon_results/
 biobloom_results/
+cleanifier_results/
+cleanifier_results*
 logs/
 results/
+*.out
+slurm*
