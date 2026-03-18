@@ -5,6 +5,7 @@ deacon_results/
 biobloom_results/
 cleanifier_results/
 cleanifier_results*
+movi_results/
 logs/
 results/
 *.out

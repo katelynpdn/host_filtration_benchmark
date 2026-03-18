@@ -1,0 +1,9 @@
+name: seqkit-env
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - seqkit
+  - seqtk
+prefix: /home/kan028/miniforge3/etc/profile.d/conda.sh
