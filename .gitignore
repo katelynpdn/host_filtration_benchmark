@@ -9,4 +9,6 @@ movi_results/
 logs/
 results/
 *.out
+*.fastq
+kl-ingest
 slurm*

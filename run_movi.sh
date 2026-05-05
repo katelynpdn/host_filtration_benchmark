@@ -20,8 +20,8 @@ R1_FILE=$3
 R2_FILE=$4
 OUTPUT_DIR=$5
 
-module load gcc_14.1.0
-module load cmake_3.18.2
+#module load gcc_14.1.0
+#module load cmake_3.18.2
 source /home/kan028/miniforge3/etc/profile.d/conda.sh
 conda activate seqkit-env
 

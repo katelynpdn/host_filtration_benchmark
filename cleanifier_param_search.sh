@@ -70,10 +70,15 @@ for threshold in "${THRESHOLD_VALUES[@]}"; do
 
     RESULTS_1=${RESULTS_FILE}_1_keep.fastq
     RESULTS_2=${RESULTS_FILE}_2_keep.fastq
+	count_matches() {
+   		grep -c "$1" "$2" 2>/dev/null || echo 0
+	}
 
-    TN=$(( $(grep -c "MICROBE" "$RESULTS_1") + $(grep -c "MICROBE" "$RESULTS_2") ))
+	TN=$(( $(count_matches "MICROBE" "$RESULTS_1") + $(count_matches "MICROBE" "$RESULTS_2") ))
+	FN=$(( $(count_matches "HUMAN" "$RESULTS_1") + $(count_matches "HUMAN" "$RESULTS_2") ))
+    #TN=$(( $(grep -c "MICROBE" "$RESULTS_1") + $(grep -c "MICROBE" "$RESULTS_2") ))
     FP=$(( 1000000 - $TN ))
-    FN=$(( $(grep -c "HUMAN" "$RESULTS_1") + $(grep -c "HUMAN" "$RESULTS_2") ))
+    #FN=$(( $(grep -c "HUMAN" "$RESULTS_1") + $(grep -c "HUMAN" "$RESULTS_2") ))
     TP=$(( 1000000 - $FN ))
 
     echo "$threshold,$TIME,$MEMORY,$FP,$FN" >> "$RESULTS_CSV"

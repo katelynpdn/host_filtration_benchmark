@@ -51,8 +51,8 @@ else
 fi
 
 # Parameter combinations to test
-A_VALUES=(0)
-R_VALUES=(0.001 0.01 0.02 0.03 0.04 0.05 0.1 0.2)
+A_VALUES=(1 2 3)
+R_VALUES=(0.001 0.005 0.01 0.02 0.025 0.03 0.035 0.04 0.045 0.05 0.1 0.2 0.25 0.3)
 
 # Results file header
 RESULTS_CSV="$OUTPUT_DIR/deacon_results/parameter_results.csv"
