@@ -41,15 +41,15 @@ for R1 in "${INPUT_DIR}"/*_R1.fastq.gz "${INPUT_DIR}"/*_1.fastq.gz; do
         	continue
     	fi
 	
+    	echo "Processing sample: $SAMPLE"
+	
 	# If R2 doesn't exist, run Deacon on single-read mode
     	if [[ ! -f "$R2" ]]; then
         	echo "missing pair for $R1, running on single-read mode"
 		/usr/bin/time -v deacon filter -d "$DB_PATH" "$R1" -a 1 -r 0.02 -o "${OUTPUT_DIR}/hits_${SAMPLE}"
+	else
+		/usr/bin/time -v deacon filter -d "$DB_PATH" "$R1" "$R2" -a 1 -r 0.02 -o "${OUTPUT_DIR}/hits_${SAMPLE}"
     	fi
-
-    	echo "Processing sample: $SAMPLE"
-
-	/usr/bin/time -v deacon filter -d "$DB_PATH" "$R1" "$R2" -a 1 -r 0.02 -o "${OUTPUT_DIR}/hits_${SAMPLE}"
 
 done
 

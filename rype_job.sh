@@ -21,8 +21,8 @@ r2_small=/ddn_scratch/cguccion/23_11_07_HostDepletionBenchmarkOverflow/mixed_sim
 r1_large=/ddn_scratch/cguccion/23_11_07_HostDepletionBenchmarkOverflow/mixed_simulation_tmp/final_combo/LITTLE_50.00p-HUMAN_50.00p-MICROBE/raw/fastq_paired/h10000000-m10000000/50.00p-HG00733.maternal_50.00p-FDA-ARGO-51_sim_SUB-h10000000-m10000000_R1.fastq
 r2_large=/ddn_scratch/cguccion/23_11_07_HostDepletionBenchmarkOverflow/mixed_simulation_tmp/final_combo/LITTLE_50.00p-HUMAN_50.00p-MICROBE/raw/fastq_paired/h10000000-m10000000/50.00p-HG00733.maternal_50.00p-FDA-ARGO-51_sim_SUB-h10000000-m10000000_R2.fastq
 
-time rype classify run -i $index -1 $r1_med -2 $r2_med -t 0.0005
+/usr/bin/time -v rype classify run -i $index -1 $r1_med -2 $r2_med -t 0.005
 
-# FP=$(grep -c "MICROBE" biobloom_results/filtered_reads_biobloom_med)
-# TP=$(grep -c "HUMAN" biobloom_results/filtered_reads_biobloom_med)
-# echo "medium: FP: $FP, TP=$TP"
+FP=$(grep -c "_MICROBE" slurm-$SLURM_JOB_ID.out)
+TP=$(( $(grep -c "_HUMAN" slurm-$SLURM_JOB_ID.out) - 1 ))
+echo "medium: FP: $FP, TP=$TP"

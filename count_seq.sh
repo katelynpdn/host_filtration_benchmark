@@ -18,7 +18,7 @@ fi
 IN=$(realpath -s $1)
 first_file=$(ls -1 $IN | head -n 1)
 
-if [[ "$first_file" == *.fastq.gz || "$first_file" == *.txt ]]; then
+if [[ "$first_file" == *.fastq.gz || "$first_file" == *.txt || "$first_file" == *.tsv ]]; then
 	IN_FILES="${IN}/*.fastq.gz"
 else
 	IN_FILES="${IN}/*"
