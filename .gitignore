@@ -2,5 +2,14 @@
 human_host_filtration/
 sra-human-scrubber/
 deacon_results/
-biobloom_results
-.Rproj.user
+biobloom_results/
+cleanifier_results/
+cleanifier_results*
+movi_results/
+logs/
+results/
+*.out
+*.fastq
+*.fastq.*
+kl-ingest
+slurm*

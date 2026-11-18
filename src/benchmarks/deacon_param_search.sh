@@ -51,8 +51,8 @@ else
 fi
 
 # Parameter combinations to test
-A_VALUES=(1 2)
-R_VALUES=(0.2 0.1 0.05 0.025 0.01 0.005)
+A_VALUES=(1 2 3)
+R_VALUES=(0.001 0.005 0.01 0.02 0.025 0.03 0.035 0.04 0.045 0.05 0.1 0.2 0.25 0.3)
 
 # Results file header
 RESULTS_CSV="$OUTPUT_DIR/deacon_results/parameter_results.csv"
@@ -66,7 +66,7 @@ for A in "${A_VALUES[@]}"; do
         RESULTS_FILE="$OUTPUT_DIR/deacon_results/cleaned_reads_deacon_A${A}_R${R}"
 
         # Measure time and memory
-        eval "$(measure_benchmark deacon filter -d $deacon_index $R1_FILE $R2_FILE -a $A -r $R -o $RESULTS_FILE)"
+        eval "$(measure_benchmark deacon filter $deacon_index $R1_FILE $R2_FILE -a $A -r $R -o $RESULTS_FILE)"
         TIME=$user_sys
         MEMORY=$rss
 
@@ -74,11 +74,9 @@ for A in "${A_VALUES[@]}"; do
         echo "MEMORY = $MEMORY kB" | tee -a $LOG_FILE
         
         # Parse results to get TP/FP/TN/FN
-        FN=$(grep -c "HUMAN" "$RESULTS_FILE" 2>/dev/null)
-        FN=${FN:-0}
-        FP=$(( NUM_READS - $(grep -c "MICROBE" "$RESULTS_FILE" 2>/dev/null) ))
-        FP=${FP:-0}
-        TP=$(( NUM_READS - FN ))
+        TP=$(grep -c "HUMAN" "$RESULTS_FILE" 2>/dev/null || true)
+        FP=$(grep -c "MICROBE" "$RESULTS_FILE" 2>/dev/null || true)
+        FN=$(( NUM_READS - TP ))
         TN=$(( NUM_READS - FP ))
         
         echo "$A,$R,$TIME,$MEMORY,$TP,$FP,$TN,$FN" >> "$RESULTS_CSV"

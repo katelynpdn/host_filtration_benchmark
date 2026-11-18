@@ -1,0 +1,31 @@
+TIME = 18.180 seconds
+MEMORY = 4743564 kB
+Results for A=1 and R=0.045: TP=999896, FP=4, TN=999996, FN=104
+TIME = 18.040 seconds
+MEMORY = 4743576 kB
+Results for A=1 and R=0.04: TP=999914, FP=4, TN=999996, FN=86
+TIME = 18.110 seconds
+MEMORY = 4742148 kB
+Results for A=1 and R=0.035: TP=999914, FP=4, TN=999996, FN=86
+TIME = 18.240 seconds
+MEMORY = 4744000 kB
+Results for A=1 and R=0.03: TP=999914, FP=4, TN=999996, FN=86
+TIME = 17.140 seconds
+MEMORY = 4744032 kB
+Results for A=1 and R=0.001: TP=999914, FP=4, TN=999996, FN=86
+TIME = 15.900 seconds
+MEMORY = 4743188 kB
+Results for A=2 and R=0.045: TP=999348, FP=2, TN=999998, FN=652
+TIME = 16.730 seconds
+MEMORY = 4744048 kB
+Results for A=2 and R=0.04: TP=999348, FP=2, TN=999998, FN=652
+TIME = 21.440 seconds
+MEMORY = 4744348 kB
+Results for A=2 and R=0.035: TP=999348, FP=2, TN=999998, FN=652
+TIME = 19.740 seconds
+MEMORY = 4743220 kB
+Results for A=2 and R=0.03: TP=999348, FP=2, TN=999998, FN=652
+TIME = 20.060 seconds
+MEMORY = 4744040 kB
+Results for A=2 and R=0.001: TP=999348, FP=2, TN=999998, FN=652
+Parameter search complete. Results saved to ./deacon_results/parameter_results.csv

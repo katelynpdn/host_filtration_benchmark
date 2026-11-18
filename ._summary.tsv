@@ -1,0 +1,4 @@
+filter_id	hits	misses	shared	rate_hit	rate_miss	rate_shared
+host_filter	499994	500006	0	0.499994	0.500006	0
+multiMatch	0	1000000	0	0	1	0
+noMatch	500006	499994	0	0.500006	0.499994	0
