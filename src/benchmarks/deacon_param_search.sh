@@ -74,8 +74,10 @@ for A in "${A_VALUES[@]}"; do
         echo "MEMORY = $MEMORY kB" | tee -a $LOG_FILE
         
         # Parse results to get TP/FP/TN/FN
-        FN=$(grep -c "HUMAN" "$RESULTS_FILE" 2>/dev/null || echo 0)
-        FP=$(( NUM_READS - $(grep -c "MICROBE" "$RESULTS_FILE" 2>/dev/null || echo 0) ))
+        FN=$(grep -c "HUMAN" "$RESULTS_FILE" 2>/dev/null)
+        FN=${FN:-0}
+        FP=$(( NUM_READS - $(grep -c "MICROBE" "$RESULTS_FILE" 2>/dev/null) ))
+        FP=${FP:-0}
         TP=$(( NUM_READS - FN ))
         TN=$(( NUM_READS - FP ))
         

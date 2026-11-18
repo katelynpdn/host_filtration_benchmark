@@ -1,0 +1,4 @@
+﻿runtime,memory,fp,fn,tp,tn,tool,dataset
+130.18,1000104,0,9736,990264,1000000,sra-scrubber,medium
+11.9,997828,0,994,99006,100000,sra-scrubber,small
+1315.98,1000112,86,78086,9921914,10000000,sra-scrubber,large

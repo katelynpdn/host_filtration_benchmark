@@ -1,0 +1,4 @@
+﻿runtime,memory,fp,fn,tp,tn,tool,dataset
+314.58,3591392,0,8940,991060,1000000,Bowtie2,medium
+36.23,3590184,0,888,99112,100000,Bowtie2,small
+3048.74,3650016,0,78272,9921728,10000000,Bowtie2,large
