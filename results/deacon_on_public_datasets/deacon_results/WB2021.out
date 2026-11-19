@@ -1,0 +1,3136 @@
+Input dir: /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480
+Output dir: /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete
+Filter path: /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1
+Processing sample: SRR13694730
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 6.00s
+Retained 35762120/35891458 sequences (99.640%), 4796110183/4813269268 bp (99.644%) in 30.22s. 1482567 seqs/s (198.8 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694730_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694730_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694730"
+	User time (seconds): 93.94
+	System time (seconds): 5.08
+	Percent of CPU this job got: 327%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:30.27
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4743712
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 16
+	Minor (reclaiming a frame) page faults: 18734
+	Voluntary context switches: 20979
+	Involuntary context switches: 1178
+	Swaps: 0
+	File system inputs: 1478824
+	File system outputs: 23404056
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694731
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.32s
+Retained 40625808/40682614 sequences (99.860%), 5445493788/5453000491 bp (99.862%) in 35.82s. 1335991 seqs/s (179.1 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694731_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694731_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694731"
+	User time (seconds): 105.82
+	System time (seconds): 5.39
+	Percent of CPU this job got: 310%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:35.83
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4747412
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 25334
+	Voluntary context switches: 25172
+	Involuntary context switches: 1039
+	Swaps: 0
+	File system inputs: 983040
+	File system outputs: 26581544
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694732
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.32s
+Retained 45430186/45435776 sequences (99.988%), 6088333755/6089047367 bp (99.988%) in 39.28s. 1339905 seqs/s (179.6 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694732_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694732_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694732"
+	User time (seconds): 118.16
+	System time (seconds): 5.59
+	Percent of CPU this job got: 314%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:39.30
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4746848
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 26858
+	Voluntary context switches: 26096
+	Involuntary context switches: 1175
+	Swaps: 0
+	File system inputs: 983040
+	File system outputs: 29725680
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694733
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.36s
+Retained 47709928/47713000 sequences (99.994%), 6377408158/6377777322 bp (99.994%) in 42.06s. 1301630 seqs/s (174.0 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694733_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694733_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694733"
+	User time (seconds): 123.35
+	System time (seconds): 5.77
+	Percent of CPU this job got: 306%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:42.08
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4746940
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 19335
+	Voluntary context switches: 29432
+	Involuntary context switches: 1301
+	Swaps: 0
+	File system inputs: 983040
+	File system outputs: 31155320
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694734
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.34s
+Retained 42871586/42893756 sequences (99.948%), 5744873539/5747784701 bp (99.949%) in 36.63s. 1372903 seqs/s (184.0 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694734_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694734_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694734"
+	User time (seconds): 110.55
+	System time (seconds): 5.84
+	Percent of CPU this job got: 317%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:36.65
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4747460
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 20410
+	Voluntary context switches: 24454
+	Involuntary context switches: 3085
+	Swaps: 0
+	File system inputs: 983040
+	File system outputs: 28046824
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694735
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.35s
+Retained 37837468/37919494 sequences (99.784%), 5054644961/5065413805 bp (99.787%) in 35.04s. 1279618 seqs/s (170.9 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694735_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694735_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694735"
+	User time (seconds): 99.22
+	System time (seconds): 5.77
+	Percent of CPU this job got: 299%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:35.06
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4748388
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 16801
+	Voluntary context switches: 25204
+	Involuntary context switches: 3459
+	Swaps: 0
+	File system inputs: 684336
+	File system outputs: 24687528
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694736
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.34s
+Retained 46087576/46090596 sequences (99.993%), 6161040875/6161415334 bp (99.994%) in 40.25s. 1322044 seqs/s (176.7 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694736_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694736_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694736"
+	User time (seconds): 117.95
+	System time (seconds): 6.28
+	Percent of CPU this job got: 308%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:40.27
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4745604
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 18051
+	Voluntary context switches: 24765
+	Involuntary context switches: 4206
+	Swaps: 0
+	File system inputs: 481504
+	File system outputs: 30096280
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694737
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.34s
+Retained 45508876/45522834 sequences (99.969%), 6092191832/6093996695 bp (99.970%) in 40.57s. 1293975 seqs/s (173.2 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694737_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694737_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694737"
+	User time (seconds): 114.03
+	System time (seconds): 6.56
+	Percent of CPU this job got: 297%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:40.59
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4744412
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 22405
+	Voluntary context switches: 26038
+	Involuntary context switches: 4321
+	Swaps: 0
+	File system inputs: 411008
+	File system outputs: 29751104
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694738
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.34s
+Retained 43182776/43223384 sequences (99.906%), 5780379888/5785711557 bp (99.908%) in 37.53s. 1342978 seqs/s (179.8 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694738_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694738_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694738"
+	User time (seconds): 111.48
+	System time (seconds): 6.34
+	Percent of CPU this job got: 313%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:37.55
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4744712
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 35872
+	Voluntary context switches: 28104
+	Involuntary context switches: 3996
+	Swaps: 0
+	File system inputs: 607888
+	File system outputs: 28226600
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694739
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.36s
+Retained 44801600/44807018 sequences (99.988%), 6011902559/6012591499 bp (99.989%) in 41.21s. 1250244 seqs/s (167.8 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694739_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694739_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694739"
+	User time (seconds): 115.67
+	System time (seconds): 6.29
+	Percent of CPU this job got: 295%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:41.22
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4747688
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14984
+	Voluntary context switches: 26648
+	Involuntary context switches: 4121
+	Swaps: 0
+	File system inputs: 516664
+	File system outputs: 29344288
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694740
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.33s
+Retained 44629440/44651022 sequences (99.952%), 5985478082/5988310506 bp (99.953%) in 39.28s. 1315263 seqs/s (176.4 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694740_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694740_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694740"
+	User time (seconds): 117.38
+	System time (seconds): 6.33
+	Percent of CPU this job got: 314%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:39.30
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4746800
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 24012
+	Voluntary context switches: 25362
+	Involuntary context switches: 4155
+	Swaps: 0
+	File system inputs: 567640
+	File system outputs: 29218448
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694741
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.32s
+Retained 41840050/41878342 sequences (99.909%), 5604258960/5609301536 bp (99.910%) in 36.96s. 1325662 seqs/s (177.6 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694741_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694741_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694741"
+	User time (seconds): 108.85
+	System time (seconds): 5.85
+	Percent of CPU this job got: 310%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:36.98
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4748308
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 18644
+	Voluntary context switches: 25728
+	Involuntary context switches: 3871
+	Swaps: 0
+	File system inputs: 556624
+	File system outputs: 27361736
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694742
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.33s
+Retained 43813848/43837296 sequences (99.947%), 5875181551/5878255354 bp (99.948%) in 41.38s. 1217789 seqs/s (163.3 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694742_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694742_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694742"
+	User time (seconds): 113.62
+	System time (seconds): 6.48
+	Percent of CPU this job got: 290%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:41.40
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4747180
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 29531
+	Voluntary context switches: 24624
+	Involuntary context switches: 3769
+	Swaps: 0
+	File system inputs: 746824
+	File system outputs: 28680072
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694743
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.32s
+Retained 41972870/41990560 sequences (99.958%), 5623889789/5626203987 bp (99.959%) in 38.80s. 1255841 seqs/s (168.3 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694743_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694743_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694743"
+	User time (seconds): 108.67
+	System time (seconds): 5.76
+	Percent of CPU this job got: 294%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:38.82
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4744228
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 29220
+	Voluntary context switches: 24574
+	Involuntary context switches: 3963
+	Swaps: 0
+	File system inputs: 393216
+	File system outputs: 27455864
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694744
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.35s
+Retained 44651388/44654474 sequences (99.993%), 5977963446/5978338424 bp (99.994%) in 41.67s. 1229644 seqs/s (164.6 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694744_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694744_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694744"
+	User time (seconds): 116.88
+	System time (seconds): 6.62
+	Percent of CPU this job got: 296%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:41.69
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4744328
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 20225
+	Voluntary context switches: 25875
+	Involuntary context switches: 3893
+	Swaps: 0
+	File system inputs: 851840
+	File system outputs: 29191888
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694745
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.35s
+Retained 44295174/44329118 sequences (99.923%), 5937427568/5941888300 bp (99.925%) in 40.97s. 1246396 seqs/s (167.1 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694745_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694745_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694745"
+	User time (seconds): 116.03
+	System time (seconds): 6.22
+	Percent of CPU this job got: 298%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:40.98
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4745724
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 33747
+	Voluntary context switches: 24766
+	Involuntary context switches: 4119
+	Swaps: 0
+	File system inputs: 487104
+	File system outputs: 28986752
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694746
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.35s
+Retained 47336728/47339520 sequences (99.994%), 6343575687/6343915445 bp (99.995%) in 43.90s. 1229516 seqs/s (164.8 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694746_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694746_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694746"
+	User time (seconds): 122.72
+	System time (seconds): 6.73
+	Percent of CPU this job got: 294%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:43.92
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4745880
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 19711
+	Voluntary context switches: 29010
+	Involuntary context switches: 4216
+	Swaps: 0
+	File system inputs: 1075512
+	File system outputs: 30973976
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694747
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.97s
+Retained 42529584/42591956 sequences (99.854%), 5702523357/5710754839 bp (99.856%) in 39.57s. 1269343 seqs/s (170.2 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694747_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694747_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694747"
+	User time (seconds): 108.47
+	System time (seconds): 6.48
+	Percent of CPU this job got: 290%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:39.59
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4747828
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 18208
+	Voluntary context switches: 27584
+	Involuntary context switches: 4237
+	Swaps: 0
+	File system inputs: 1474560
+	File system outputs: 27836392
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694748
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.34s
+Retained 45669062/45685358 sequences (99.964%), 6124537411/6126666813 bp (99.965%) in 42.33s. 1236691 seqs/s (165.8 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694748_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694748_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694748"
+	User time (seconds): 119.05
+	System time (seconds): 6.38
+	Percent of CPU this job got: 296%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:42.35
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4747024
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 19218
+	Voluntary context switches: 27060
+	Involuntary context switches: 4245
+	Swaps: 0
+	File system inputs: 522832
+	File system outputs: 29898600
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694749
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.33s
+Retained 42069378/42101230 sequences (99.924%), 5637695359/5641868781 bp (99.926%) in 40.00s. 1216081 seqs/s (163.0 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694749_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694749_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694749"
+	User time (seconds): 108.86
+	System time (seconds): 6.46
+	Percent of CPU this job got: 288%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:40.01
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4747396
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 23665
+	Voluntary context switches: 25770
+	Involuntary context switches: 3713
+	Swaps: 0
+	File system inputs: 819104
+	File system outputs: 27522544
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694750
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.31s
+Retained 37800164/37886844 sequences (99.771%), 5070634054/5082076701 bp (99.775%) in 35.15s. 1271582 seqs/s (170.6 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694750_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694750_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694750"
+	User time (seconds): 99.78
+	System time (seconds): 5.55
+	Percent of CPU this job got: 299%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:35.17
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4744860
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14190
+	Voluntary context switches: 21888
+	Involuntary context switches: 3516
+	Swaps: 0
+	File system inputs: 917456
+	File system outputs: 24745000
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694751
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.36s
+Retained 45606788/45610092 sequences (99.993%), 6111489607/6111883518 bp (99.994%) in 41.77s. 1254091 seqs/s (168.1 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694751_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694751_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694751"
+	User time (seconds): 120.27
+	System time (seconds): 6.72
+	Percent of CPU this job got: 303%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:41.79
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4746388
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 19008
+	Voluntary context switches: 23586
+	Involuntary context switches: 4131
+	Swaps: 0
+	File system inputs: 753584
+	File system outputs: 29839328
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694752
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.34s
+Retained 43652380/43675740 sequences (99.947%), 5857455116/5860503852 bp (99.948%) in 40.27s. 1252189 seqs/s (168.0 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694752_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694752_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694752"
+	User time (seconds): 113.89
+	System time (seconds): 6.13
+	Percent of CPU this job got: 297%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:40.29
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4745236
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 19140
+	Voluntary context switches: 23391
+	Involuntary context switches: 3805
+	Swaps: 0
+	File system inputs: 629920
+	File system outputs: 28589608
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694753
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.34s
+Retained 1350494/1730246 sequences (78.052%), 180735593/231009963 bp (78.237%) in 6.74s. 1282476 seqs/s (171.2 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694753_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694753_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694753"
+	User time (seconds): 8.47
+	System time (seconds): 1.22
+	Percent of CPU this job got: 143%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:06.76
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4746736
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 12263
+	Voluntary context switches: 1264
+	Involuntary context switches: 191
+	Swaps: 0
+	File system inputs: 220944
+	File system outputs: 878360
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694754
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.37s
+Retained 45890086/45893284 sequences (99.993%), 6125451912/6125836333 bp (99.994%) in 42.94s. 1222834 seqs/s (163.2 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694754_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694754_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694754"
+	User time (seconds): 119.44
+	System time (seconds): 6.49
+	Percent of CPU this job got: 293%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:42.96
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4746760
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 18245
+	Voluntary context switches: 25769
+	Involuntary context switches: 4096
+	Swaps: 0
+	File system inputs: 576088
+	File system outputs: 29931248
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694755
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.37s
+Retained 38552134/38563224 sequences (99.971%), 5161557036/5162985988 bp (99.972%) in 36.88s. 1225167 seqs/s (164.0 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694755_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694755_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694755"
+	User time (seconds): 100.07
+	System time (seconds): 5.79
+	Percent of CPU this job got: 286%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:36.90
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4746964
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 15517
+	Voluntary context switches: 24709
+	Involuntary context switches: 3586
+	Swaps: 0
+	File system inputs: 577328
+	File system outputs: 25199128
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694756
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.31s
+Retained 3477858/3973624 sequences (87.524%), 466464501/532133191 bp (87.659%) in 8.56s. 1242068 seqs/s (166.3 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694756_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694756_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694756"
+	User time (seconds): 14.12
+	System time (seconds): 1.52
+	Percent of CPU this job got: 182%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:08.58
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4746648
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 16013
+	Voluntary context switches: 2898
+	Involuntary context switches: 403
+	Swaps: 0
+	File system inputs: 425984
+	File system outputs: 2269848
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694757
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.38s
+Retained 43696490/43703318 sequences (99.984%), 5840306206/5841171247 bp (99.985%) in 39.75s. 1273399 seqs/s (170.2 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694757_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694757_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694757"
+	User time (seconds): 113.32
+	System time (seconds): 6.04
+	Percent of CPU this job got: 300%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:39.77
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4744236
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 19911
+	Voluntary context switches: 26511
+	Involuntary context switches: 4165
+	Swaps: 0
+	File system inputs: 524272
+	File system outputs: 28528440
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694758
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.33s
+Retained 935104/1467986 sequences (63.700%), 125341411/196105569 bp (63.915%) in 6.44s. 1325819 seqs/s (177.1 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694758_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694758_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694758"
+	User time (seconds): 8.07
+	System time (seconds): 1.14
+	Percent of CPU this job got: 142%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:06.46
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4744848
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 11316
+	Voluntary context switches: 910
+	Involuntary context switches: 150
+	Swaps: 0
+	File system inputs: 183328
+	File system outputs: 608912
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694759
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.38s
+Retained 1940940/2378556 sequences (81.602%), 260158366/318169107 bp (81.767%) in 7.22s. 1302160 seqs/s (174.2 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694759_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694759_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694759"
+	User time (seconds): 9.86
+	System time (seconds): 1.35
+	Percent of CPU this job got: 155%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:07.23
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4744892
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 11864
+	Voluntary context switches: 1249
+	Involuntary context switches: 232
+	Swaps: 0
+	File system inputs: 305408
+	File system outputs: 1264680
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694760
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.61s
+Retained 2515162/2930116 sequences (85.838%), 336812092/391690191 bp (85.989%) in 8.00s. 1229097 seqs/s (164.3 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694760_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694760_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694760"
+	User time (seconds): 11.34
+	System time (seconds): 1.63
+	Percent of CPU this job got: 161%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:08.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4744212
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 12607
+	Voluntary context switches: 2062
+	Involuntary context switches: 242
+	Swaps: 0
+	File system inputs: 374768
+	File system outputs: 1638472
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694761
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.65s
+Retained 36037946/36144792 sequences (99.704%), 4835607215/4849760683 bp (99.708%) in 35.58s. 1207715 seqs/s (162.0 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694761_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694761_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694761"
+	User time (seconds): 95.23
+	System time (seconds): 5.94
+	Percent of CPU this job got: 284%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:35.60
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4745304
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 19786
+	Voluntary context switches: 21099
+	Involuntary context switches: 2958
+	Swaps: 0
+	File system inputs: 688144
+	File system outputs: 23594688
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694762
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.63s
+Retained 42833282/42842392 sequences (99.979%), 5730455890/5731634156 bp (99.979%) in 40.01s. 1246214 seqs/s (166.7 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694762_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694762_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694762"
+	User time (seconds): 112.00
+	System time (seconds): 6.58
+	Percent of CPU this job got: 296%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:40.03
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4747464
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 17157
+	Voluntary context switches: 29055
+	Involuntary context switches: 3696
+	Swaps: 0
+	File system inputs: 590808
+	File system outputs: 27985536
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694763
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.65s
+Retained 44028550/44033464 sequences (99.989%), 5903636546/5904272434 bp (99.989%) in 41.58s. 1225564 seqs/s (164.3 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694763_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694763_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694763"
+	User time (seconds): 110.60
+	System time (seconds): 6.62
+	Percent of CPU this job got: 281%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:41.60
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4747764
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 16687
+	Voluntary context switches: 29613
+	Involuntary context switches: 3646
+	Swaps: 0
+	File system inputs: 674328
+	File system outputs: 28819552
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694764
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.64s
+Retained 40041960/40090160 sequences (99.880%), 5366175145/5372522844 bp (99.882%) in 35.79s. 1331751 seqs/s (178.5 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694764_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694764_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694764"
+	User time (seconds): 101.50
+	System time (seconds): 6.28
+	Percent of CPU this job got: 300%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:35.81
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4747972
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 17213
+	Voluntary context switches: 23473
+	Involuntary context switches: 3304
+	Swaps: 0
+	File system inputs: 622544
+	File system outputs: 26194832
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694765
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.64s
+Retained 41957342/41976556 sequences (99.954%), 5627404300/5629930864 bp (99.955%) in 37.50s. 1319496 seqs/s (177.0 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694765_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694765_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694765"
+	User time (seconds): 109.41
+	System time (seconds): 6.45
+	Percent of CPU this job got: 308%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:37.52
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4744164
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 26914
+	Voluntary context switches: 25849
+	Involuntary context switches: 3605
+	Swaps: 0
+	File system inputs: 479792
+	File system outputs: 27467568
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694766
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.66s
+Retained 43981124/44002418 sequences (99.952%), 5899424451/5902213537 bp (99.953%) in 41.93s. 1214642 seqs/s (162.9 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694766_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694766_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694766"
+	User time (seconds): 115.48
+	System time (seconds): 7.08
+	Percent of CPU this job got: 292%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:41.95
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4745548
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 26699
+	Voluntary context switches: 26821
+	Involuntary context switches: 3697
+	Swaps: 0
+	File system inputs: 744736
+	File system outputs: 28796824
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694767
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 7.41s
+Retained 11006488/11488378 sequences (95.805%), 1474777534/1538635253 bp (95.850%) in 16.25s. 1307879 seqs/s (175.2 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694767_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694767_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694767"
+	User time (seconds): 32.66
+	System time (seconds): 3.12
+	Percent of CPU this job got: 219%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:16.27
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4746204
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 18360
+	Voluntary context switches: 7617
+	Involuntary context switches: 1005
+	Swaps: 0
+	File system inputs: 1343488
+	File system outputs: 7185568
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694768
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.40s
+Retained 24141786/24494758 sequences (98.559%), 3233805700/3280665264 bp (98.572%) in 24.58s. 1277966 seqs/s (171.2 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694768_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694768_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694768"
+	User time (seconds): 63.43
+	System time (seconds): 4.21
+	Percent of CPU this job got: 274%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:24.60
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4748620
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 15752
+	Voluntary context switches: 16786
+	Involuntary context switches: 1996
+	Swaps: 0
+	File system inputs: 476688
+	File system outputs: 15770528
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694769
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.36s
+Retained 42850220/42887880 sequences (99.912%), 5747198972/5752164950 bp (99.914%) in 40.12s. 1233984 seqs/s (165.5 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694769_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694769_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694769"
+	User time (seconds): 111.89
+	System time (seconds): 6.28
+	Percent of CPU this job got: 294%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:40.14
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4745976
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 29436
+	Voluntary context switches: 25370
+	Involuntary context switches: 3664
+	Swaps: 0
+	File system inputs: 559720
+	File system outputs: 28053152
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694770
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.36s
+Retained 45044532/45048810 sequences (99.991%), 6043260403/6043804949 bp (99.991%) in 40.49s. 1284128 seqs/s (172.3 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694770_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694770_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694770"
+	User time (seconds): 117.53
+	System time (seconds): 6.26
+	Percent of CPU this job got: 305%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:40.51
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4744744
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 21061
+	Voluntary context switches: 27386
+	Involuntary context switches: 3852
+	Swaps: 0
+	File system inputs: 539152
+	File system outputs: 29498728
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694771
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.36s
+Retained 46554624/46562708 sequences (99.983%), 6237692804/6238718630 bp (99.984%) in 42.24s. 1264217 seqs/s (169.4 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694771_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694771_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694771"
+	User time (seconds): 120.89
+	System time (seconds): 6.36
+	Percent of CPU this job got: 301%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:42.26
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4746216
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 18972
+	Voluntary context switches: 30146
+	Involuntary context switches: 3909
+	Swaps: 0
+	File system inputs: 593856
+	File system outputs: 30457328
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694772
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.41s
+Retained 42565372/42568506 sequences (99.993%), 5696918847/5697294441 bp (99.993%) in 39.36s. 1255274 seqs/s (168.0 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694772_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694772_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694772"
+	User time (seconds): 108.58
+	System time (seconds): 6.35
+	Percent of CPU this job got: 291%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:39.38
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4745464
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 21392
+	Voluntary context switches: 26856
+	Involuntary context switches: 3501
+	Swaps: 0
+	File system inputs: 775032
+	File system outputs: 27819216
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694773
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.37s
+Retained 40363204/40421942 sequences (99.855%), 5408703622/5416463552 bp (99.857%) in 35.48s. 1342448 seqs/s (179.9 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694773_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694773_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694773"
+	User time (seconds): 101.10
+	System time (seconds): 5.61
+	Percent of CPU this job got: 300%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:35.51
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4749580
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 18190
+	Voluntary context switches: 25205
+	Involuntary context switches: 3402
+	Swaps: 0
+	File system inputs: 491488
+	File system outputs: 26403200
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694774
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.35s
+Retained 43583396/43621434 sequences (99.913%), 5835189985/5840185075 bp (99.914%) in 41.03s. 1223022 seqs/s (163.7 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694774_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694774_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694774"
+	User time (seconds): 113.32
+	System time (seconds): 6.19
+	Percent of CPU this job got: 291%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:41.04
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4747076
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 28684
+	Voluntary context switches: 25817
+	Involuntary context switches: 3675
+	Swaps: 0
+	File system inputs: 616632
+	File system outputs: 28493560
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694775
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.45s
+Retained 47862392/47866456 sequences (99.992%), 6396870881/6397370023 bp (99.992%) in 43.24s. 1266634 seqs/s (169.3 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694775_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694775_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694775"
+	User time (seconds): 122.24
+	System time (seconds): 6.59
+	Percent of CPU this job got: 297%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:43.26
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4744476
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 26691
+	Voluntary context switches: 30926
+	Involuntary context switches: 4057
+	Swaps: 0
+	File system inputs: 477720
+	File system outputs: 31251440
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694776
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.38s
+Retained 40542360/40552564 sequences (99.975%), 5436633063/5437969112 bp (99.975%) in 35.39s. 1351474 seqs/s (181.2 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694776_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694776_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694776"
+	User time (seconds): 104.73
+	System time (seconds): 5.71
+	Percent of CPU this job got: 311%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:35.41
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4750120
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14607
+	Voluntary context switches: 26170
+	Involuntary context switches: 3427
+	Swaps: 0
+	File system inputs: 983040
+	File system outputs: 26535952
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694777
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.35s
+Retained 17830660/18135460 sequences (98.319%), 2385560615/2425808211 bp (98.341%) in 19.69s. 1268920 seqs/s (169.7 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694777_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694777_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694777"
+	User time (seconds): 49.47
+	System time (seconds): 3.20
+	Percent of CPU this job got: 267%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:19.71
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4744772
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13972
+	Voluntary context switches: 12216
+	Involuntary context switches: 1518
+	Swaps: 0
+	File system inputs: 491488
+	File system outputs: 11629136
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694778
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.41s
+Retained 46191666/46197348 sequences (99.988%), 6182654689/6183367394 bp (99.988%) in 41.70s. 1274778 seqs/s (170.6 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694778_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694778_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694778"
+	User time (seconds): 119.73
+	System time (seconds): 6.57
+	Percent of CPU this job got: 302%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:41.72
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4745292
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 20004
+	Voluntary context switches: 25529
+	Involuntary context switches: 3869
+	Swaps: 0
+	File system inputs: 611568
+	File system outputs: 30194496
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694779
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.35s
+Retained 45117446/45121266 sequences (99.992%), 6044880346/6045362520 bp (99.992%) in 41.11s. 1263737 seqs/s (169.3 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694779_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694779_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694779"
+	User time (seconds): 115.51
+	System time (seconds): 6.34
+	Percent of CPU this job got: 296%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:41.13
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4746288
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 19444
+	Voluntary context switches: 27928
+	Involuntary context switches: 3853
+	Swaps: 0
+	File system inputs: 489488
+	File system outputs: 29514688
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694780
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.37s
+Retained 42269198/42331462 sequences (99.853%), 5667536498/5675776459 bp (99.855%) in 40.16s. 1217060 seqs/s (163.2 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694780_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694780_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694780"
+	User time (seconds): 109.10
+	System time (seconds): 6.13
+	Percent of CPU this job got: 286%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:40.18
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4745748
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 19384
+	Voluntary context switches: 27422
+	Involuntary context switches: 3482
+	Swaps: 0
+	File system inputs: 547768
+	File system outputs: 27665424
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694781
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.36s
+Retained 42530364/42559162 sequences (99.932%), 5705685500/5709490021 bp (99.933%) in 38.38s. 1290568 seqs/s (173.1 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694781_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694781_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694781"
+	User time (seconds): 109.04
+	System time (seconds): 6.04
+	Percent of CPU this job got: 299%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:38.40
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4744720
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 19390
+	Voluntary context switches: 25251
+	Involuntary context switches: 3736
+	Swaps: 0
+	File system inputs: 458736
+	File system outputs: 27848712
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694782
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.34s
+Retained 40707044/40770530 sequences (99.844%), 5448489612/5456851058 bp (99.847%) in 38.37s. 1236149 seqs/s (165.4 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694782_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694782_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694782"
+	User time (seconds): 107.34
+	System time (seconds): 5.79
+	Percent of CPU this job got: 294%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:38.39
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4746232
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 22725
+	Voluntary context switches: 25995
+	Involuntary context switches: 3463
+	Swaps: 0
+	File system inputs: 548008
+	File system outputs: 26603984
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694783
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.38s
+Retained 1777562/2261358 sequences (78.606%), 238398633/302588522 bp (78.786%) in 7.18s. 1300536 seqs/s (174.0 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694783_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694783_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694783"
+	User time (seconds): 9.78
+	System time (seconds): 1.32
+	Percent of CPU this job got: 154%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:07.20
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4745204
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 12045
+	Voluntary context switches: 1478
+	Involuntary context switches: 189
+	Swaps: 0
+	File system inputs: 285584
+	File system outputs: 1158600
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694784
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.38s
+Retained 45465212/45484092 sequences (99.958%), 6097789919/6100275045 bp (99.959%) in 41.92s. 1246186 seqs/s (167.1 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694784_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694784_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694784"
+	User time (seconds): 114.15
+	System time (seconds): 6.58
+	Percent of CPU this job got: 287%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:41.94
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4747548
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 32018
+	Voluntary context switches: 27177
+	Involuntary context switches: 3776
+	Swaps: 0
+	File system inputs: 531416
+	File system outputs: 29767048
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694785
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.34s
+Retained 19047900/19490984 sequences (97.727%), 2553199546/2611548349 bp (97.766%) in 21.16s. 1232326 seqs/s (165.1 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694785_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694785_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694785"
+	User time (seconds): 52.12
+	System time (seconds): 3.54
+	Percent of CPU this job got: 262%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:21.18
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4746252
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14602
+	Voluntary context switches: 12340
+	Involuntary context switches: 1478
+	Swaps: 0
+	File system inputs: 799528
+	File system outputs: 12442040
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694786
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 6.05s
+Retained 42748562/42778522 sequences (99.930%), 5736287340/5740211095 bp (99.932%) in 39.31s. 1286303 seqs/s (172.6 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694786_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694786_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694786"
+	User time (seconds): 112.50
+	System time (seconds): 6.79
+	Percent of CPU this job got: 303%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:39.34
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4745456
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 78038
+	Voluntary context switches: 25316
+	Involuntary context switches: 3893
+	Swaps: 0
+	File system inputs: 937944
+	File system outputs: 27997064
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694787
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.34s
+Retained 42272344/42320062 sequences (99.887%), 5672697002/5678979077 bp (99.889%) in 40.46s. 1206522 seqs/s (161.9 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694787_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694787_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694787"
+	User time (seconds): 110.69
+	System time (seconds): 6.46
+	Percent of CPU this job got: 289%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:40.48
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4746396
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 19295
+	Voluntary context switches: 25606
+	Involuntary context switches: 3593
+	Swaps: 0
+	File system inputs: 659544
+	File system outputs: 27686048
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694788
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.34s
+Retained 38091198/38094234 sequences (99.992%), 5105922137/5106291829 bp (99.993%) in 35.85s. 1250959 seqs/s (167.7 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694788_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694788_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694788"
+	User time (seconds): 100.23
+	System time (seconds): 5.60
+	Percent of CPU this job got: 295%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:35.87
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4747108
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 18789
+	Voluntary context switches: 22394
+	Involuntary context switches: 3255
+	Swaps: 0
+	File system inputs: 458720
+	File system outputs: 24921048
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694789
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.33s
+Retained 43437698/43442090 sequences (99.990%), 5827197430/5827743956 bp (99.991%) in 40.92s. 1222237 seqs/s (164.0 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694789_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694789_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694789"
+	User time (seconds): 111.56
+	System time (seconds): 6.48
+	Percent of CPU this job got: 288%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:40.94
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4747108
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 22606
+	Voluntary context switches: 26619
+	Involuntary context switches: 3632
+	Swaps: 0
+	File system inputs: 730480
+	File system outputs: 28443080
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694790
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.34s
+Retained 47775746/47778840 sequences (99.994%), 6405039365/6405414580 bp (99.994%) in 44.26s. 1228808 seqs/s (164.7 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694790_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694790_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694790"
+	User time (seconds): 123.49
+	System time (seconds): 6.65
+	Percent of CPU this job got: 293%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:44.28
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4747908
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 17037
+	Voluntary context switches: 30202
+	Involuntary context switches: 4019
+	Swaps: 0
+	File system inputs: 550176
+	File system outputs: 31271888
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694791
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.36s
+Retained 39630788/39641184 sequences (99.974%), 5318985438/5320329407 bp (99.975%) in 37.34s. 1241556 seqs/s (166.6 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694791_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694791_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694791"
+	User time (seconds): 103.95
+	System time (seconds): 5.91
+	Percent of CPU this job got: 294%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:37.36
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4746116
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 19280
+	Voluntary context switches: 23582
+	Involuntary context switches: 3487
+	Swaps: 0
+	File system inputs: 517680
+	File system outputs: 25956232
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694792
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.33s
+Retained 39417008/39435418 sequences (99.953%), 5284414055/5286817689 bp (99.955%) in 36.79s. 1254073 seqs/s (168.1 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694792_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694792_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694792"
+	User time (seconds): 103.40
+	System time (seconds): 5.92
+	Percent of CPU this job got: 297%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:36.81
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4748568
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 26635
+	Voluntary context switches: 22707
+	Involuntary context switches: 3374
+	Swaps: 0
+	File system inputs: 1014040
+	File system outputs: 25793008
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694793
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.33s
+Retained 44871808/44878606 sequences (99.985%), 6014307847/6015172242 bp (99.986%) in 41.39s. 1244819 seqs/s (166.8 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694793_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694793_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694793"
+	User time (seconds): 116.19
+	System time (seconds): 6.31
+	Percent of CPU this job got: 295%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:41.41
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4744776
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 29037
+	Voluntary context switches: 27529
+	Involuntary context switches: 3891
+	Swaps: 0
+	File system inputs: 512368
+	File system outputs: 29362976
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694794
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.32s
+Retained 46971788/46976900 sequences (99.989%), 6297358426/6297999619 bp (99.990%) in 42.86s. 1251640 seqs/s (167.8 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694794_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694794_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694794"
+	User time (seconds): 123.07
+	System time (seconds): 6.49
+	Percent of CPU this job got: 302%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:42.88
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4745428
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 30651
+	Voluntary context switches: 26234
+	Involuntary context switches: 4092
+	Swaps: 0
+	File system inputs: 455968
+	File system outputs: 30745376
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694795
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.33s
+Retained 46370688/46376186 sequences (99.988%), 6217280340/6217987592 bp (99.989%) in 41.55s. 1280612 seqs/s (171.7 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694795_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694795_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694795"
+	User time (seconds): 118.33
+	System time (seconds): 6.41
+	Percent of CPU this job got: 300%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:41.57
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4747828
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 16064
+	Voluntary context switches: 30089
+	Involuntary context switches: 3967
+	Swaps: 0
+	File system inputs: 575936
+	File system outputs: 30353288
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694796
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.34s
+Retained 47332474/47337638 sequences (99.989%), 6344183809/6344841252 bp (99.990%) in 43.75s. 1232769 seqs/s (165.2 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694796_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694796_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694796"
+	User time (seconds): 123.73
+	System time (seconds): 6.80
+	Percent of CPU this job got: 298%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:43.77
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4748548
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 18964
+	Voluntary context switches: 28395
+	Involuntary context switches: 4058
+	Swaps: 0
+	File system inputs: 571184
+	File system outputs: 30975808
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694797
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.34s
+Retained 45273988/45283844 sequences (99.978%), 6067367005/6068639795 bp (99.979%) in 40.37s. 1294454 seqs/s (173.5 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694797_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694797_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694797"
+	User time (seconds): 117.41
+	System time (seconds): 6.30
+	Percent of CPU this job got: 306%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:40.39
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4745880
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 18839
+	Voluntary context switches: 28440
+	Involuntary context switches: 3791
+	Swaps: 0
+	File system inputs: 610728
+	File system outputs: 29623216
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694798
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.36s
+Retained 42914040/42916846 sequences (99.993%), 5738704737/5739041750 bp (99.994%) in 37.24s. 1348199 seqs/s (180.3 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694798_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694798_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694798"
+	User time (seconds): 111.18
+	System time (seconds): 6.00
+	Percent of CPU this job got: 314%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:37.26
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4748256
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 19515
+	Voluntary context switches: 26540
+	Involuntary context switches: 3709
+	Swaps: 0
+	File system inputs: 447408
+	File system outputs: 28028376
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694799
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.37s
+Retained 44663688/44691810 sequences (99.937%), 5992762772/5996474707 bp (99.938%) in 41.35s. 1242713 seqs/s (166.7 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694799_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694799_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694799"
+	User time (seconds): 116.82
+	System time (seconds): 6.18
+	Percent of CPU this job got: 297%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:41.36
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4747536
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 16251
+	Voluntary context switches: 26782
+	Involuntary context switches: 3879
+	Swaps: 0
+	File system inputs: 812936
+	File system outputs: 29251344
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694800
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.34s
+Retained 41413398/41425538 sequences (99.971%), 5542729245/5544301923 bp (99.972%) in 38.20s. 1260781 seqs/s (168.7 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694800_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694800_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694800"
+	User time (seconds): 107.42
+	System time (seconds): 5.75
+	Percent of CPU this job got: 296%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:38.22
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4747816
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 24225
+	Voluntary context switches: 23983
+	Involuntary context switches: 3516
+	Swaps: 0
+	File system inputs: 393200
+	File system outputs: 27065152
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694801
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.35s
+Retained 39778134/39858842 sequences (99.798%), 5328990439/5339613556 bp (99.801%) in 36.90s. 1265148 seqs/s (169.5 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694801_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694801_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694801"
+	User time (seconds): 103.36
+	System time (seconds): 5.85
+	Percent of CPU this job got: 295%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:36.92
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4744716
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 20171
+	Voluntary context switches: 23883
+	Involuntary context switches: 3445
+	Swaps: 0
+	File system inputs: 512072
+	File system outputs: 26014792
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694802
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.36s
+Retained 46450926/46459566 sequences (99.981%), 6212341628/6213453135 bp (99.982%) in 43.70s. 1213412 seqs/s (162.3 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694802_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694802_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694802"
+	User time (seconds): 117.50
+	System time (seconds): 6.72
+	Percent of CPU this job got: 284%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:43.72
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4747800
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 19729
+	Voluntary context switches: 28241
+	Involuntary context switches: 3927
+	Swaps: 0
+	File system inputs: 635784
+	File system outputs: 30344528
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694803
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.32s
+Retained 24078938/24414822 sequences (98.624%), 3229740442/3274155929 bp (98.643%) in 24.01s. 1309426 seqs/s (175.6 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694803_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694803_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694803"
+	User time (seconds): 65.43
+	System time (seconds): 4.11
+	Percent of CPU this job got: 289%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:24.03
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4746996
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 16965
+	Voluntary context switches: 15536
+	Involuntary context switches: 2089
+	Swaps: 0
+	File system inputs: 786432
+	File system outputs: 15746368
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694804
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.40s
+Retained 40755516/40849322 sequences (99.770%), 5464959127/5477370183 bp (99.773%) in 37.42s. 1277357 seqs/s (171.3 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694804_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694804_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694804"
+	User time (seconds): 106.12
+	System time (seconds): 5.85
+	Percent of CPU this job got: 299%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:37.44
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4745764
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 16380
+	Voluntary context switches: 25698
+	Involuntary context switches: 3478
+	Swaps: 0
+	File system inputs: 424544
+	File system outputs: 26674744
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694805
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 6.07s
+Retained 45751896/45755150 sequences (99.993%), 6127956503/6128356042 bp (99.993%) in 43.30s. 1230187 seqs/s (164.8 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694805_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694805_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694805"
+	User time (seconds): 118.89
+	System time (seconds): 7.35
+	Percent of CPU this job got: 291%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:43.32
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4745272
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 28319
+	Voluntary context switches: 24798
+	Involuntary context switches: 3917
+	Swaps: 0
+	File system inputs: 1458216
+	File system outputs: 29922784
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694806
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.39s
+Retained 45424400/45427468 sequences (99.993%), 6084517574/6084895828 bp (99.994%) in 41.60s. 1256121 seqs/s (168.3 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694806_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694806_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694806"
+	User time (seconds): 118.07
+	System time (seconds): 6.44
+	Percent of CPU this job got: 299%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:41.62
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4748032
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 31317
+	Voluntary context switches: 24485
+	Involuntary context switches: 3854
+	Swaps: 0
+	File system inputs: 480648
+	File system outputs: 29710000
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694807
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.39s
+Retained 46119146/46126316 sequences (99.984%), 6181422790/6182351495 bp (99.985%) in 42.53s. 1243662 seqs/s (166.7 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694807_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694807_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694807"
+	User time (seconds): 117.45
+	System time (seconds): 6.24
+	Percent of CPU this job got: 290%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:42.55
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4747248
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 17639
+	Voluntary context switches: 29087
+	Involuntary context switches: 3965
+	Swaps: 0
+	File system inputs: 490912
+	File system outputs: 30180128
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694808
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.37s
+Retained 43723372/43727518 sequences (99.991%), 5859542493/5860060977 bp (99.991%) in 39.87s. 1269311 seqs/s (170.1 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694808_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694808_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694808"
+	User time (seconds): 113.32
+	System time (seconds): 6.24
+	Percent of CPU this job got: 299%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:39.89
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4747584
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 21763
+	Voluntary context switches: 25247
+	Involuntary context switches: 3695
+	Swaps: 0
+	File system inputs: 751256
+	File system outputs: 28607080
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694809
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.39s
+Retained 683116/1124898 sequences (60.727%), 91382282/150014464 bp (60.916%) in 6.24s. 1387691 seqs/s (185.1 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694809_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694809_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694809"
+	User time (seconds): 7.09
+	System time (seconds): 1.18
+	Percent of CPU this job got: 132%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:06.26
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4744196
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 11131
+	Voluntary context switches: 527
+	Involuntary context switches: 76
+	Swaps: 0
+	File system inputs: 141816
+	File system outputs: 444048
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694810
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.40s
+Retained 2143708/2840400 sequences (75.472%), 286936304/379207946 bp (75.667%) in 7.57s. 1337438 seqs/s (178.6 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694810_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694810_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694810"
+	User time (seconds): 11.11
+	System time (seconds): 1.52
+	Percent of CPU this job got: 166%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:07.58
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4745192
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 11827
+	Voluntary context switches: 1764
+	Involuntary context switches: 259
+	Swaps: 0
+	File system inputs: 360712
+	File system outputs: 1395880
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694811
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.37s
+Retained 7064858/7340186 sequences (96.249%), 946402154/982884211 bp (96.288%) in 10.87s. 1347306 seqs/s (180.4 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694811_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694811_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694811"
+	User time (seconds): 20.85
+	System time (seconds): 2.00
+	Percent of CPU this job got: 209%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:10.89
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4747104
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13650
+	Voluntary context switches: 4213
+	Involuntary context switches: 619
+	Swaps: 0
+	File system inputs: 360448
+	File system outputs: 4609864
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694812
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.39s
+Retained 3678504/4209166 sequences (87.393%), 493008441/563553750 bp (87.482%) in 8.55s. 1351923 seqs/s (181.0 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694812_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694812_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694812"
+	User time (seconds): 14.09
+	System time (seconds): 1.55
+	Percent of CPU this job got: 182%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:08.57
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4744216
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 11959
+	Voluntary context switches: 2373
+	Involuntary context switches: 358
+	Swaps: 0
+	File system inputs: 360448
+	File system outputs: 2399568
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694813
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.41s
+Retained 2457618/3012830 sequences (81.572%), 329519122/403354641 bp (81.695%) in 7.72s. 1333910 seqs/s (178.6 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694813_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694813_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694813"
+	User time (seconds): 11.69
+	System time (seconds): 1.49
+	Percent of CPU this job got: 170%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:07.74
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4743612
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 12191
+	Voluntary context switches: 1836
+	Involuntary context switches: 263
+	Swaps: 0
+	File system inputs: 327552
+	File system outputs: 1602696
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694814
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.73s
+Retained 13887186/14357968 sequences (96.721%), 1863056976/1925705891 bp (96.747%) in 16.55s. 1331707 seqs/s (178.6 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694814_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694814_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694814"
+	User time (seconds): 39.65
+	System time (seconds): 3.15
+	Percent of CPU this job got: 258%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:16.57
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4745708
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14206
+	Voluntary context switches: 9401
+	Involuntary context switches: 1296
+	Swaps: 0
+	File system inputs: 411520
+	File system outputs: 9076240
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694815
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.76s
+Retained 5244184/5661020 sequences (92.637%), 699879578/754797188 bp (92.724%) in 10.14s. 1296309 seqs/s (172.8 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694815_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694815_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694815"
+	User time (seconds): 17.71
+	System time (seconds): 2.06
+	Percent of CPU this job got: 194%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:10.15
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4745424
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 12335
+	Voluntary context switches: 3921
+	Involuntary context switches: 485
+	Swaps: 0
+	File system inputs: 352864
+	File system outputs: 3410696
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694816
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.84s
+Retained 4514256/5022716 sequences (89.877%), 604961387/672469136 bp (89.961%) in 9.67s. 1314715 seqs/s (176.0 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694816_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694816_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694816"
+	User time (seconds): 16.07
+	System time (seconds): 2.11
+	Percent of CPU this job got: 187%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:09.69
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4744448
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 11951
+	Voluntary context switches: 3361
+	Involuntary context switches: 469
+	Swaps: 0
+	File system inputs: 391808
+	File system outputs: 2945280
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694817
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.86s
+Retained 1907388/2356564 sequences (80.939%), 255320286/314643697 bp (81.146%) in 7.60s. 1357992 seqs/s (181.3 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694817_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694817_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694817"
+	User time (seconds): 10.16
+	System time (seconds): 1.80
+	Percent of CPU this job got: 156%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:07.62
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4745924
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 11960
+	Voluntary context switches: 1643
+	Involuntary context switches: 242
+	Swaps: 0
+	File system inputs: 301496
+	File system outputs: 1241448
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694818
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.83s
+Retained 3984874/4288494 sequences (92.920%), 533333625/573508250 bp (92.995%) in 9.20s. 1275043 seqs/s (170.5 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694818_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694818_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694818"
+	User time (seconds): 14.24
+	System time (seconds): 2.09
+	Percent of CPU this job got: 177%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:09.21
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4745756
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 12876
+	Voluntary context switches: 3179
+	Involuntary context switches: 410
+	Swaps: 0
+	File system inputs: 425984
+	File system outputs: 2596640
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694819
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.82s
+Retained 2581136/3008780 sequences (85.787%), 345808953/402418091 bp (85.933%) in 8.14s. 1302616 seqs/s (174.2 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694819_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694819_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694819"
+	User time (seconds): 11.48
+	System time (seconds): 1.85
+	Percent of CPU this job got: 163%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:08.16
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4743320
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 12312
+	Voluntary context switches: 1644
+	Involuntary context switches: 295
+	Swaps: 0
+	File system inputs: 353272
+	File system outputs: 1682184
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694820
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.78s
+Retained 3087258/3526534 sequences (87.544%), 413683233/471784307 bp (87.685%) in 8.53s. 1285929 seqs/s (172.0 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694820_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694820_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694820"
+	User time (seconds): 12.75
+	System time (seconds): 1.92
+	Percent of CPU this job got: 171%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:08.55
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4746120
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 11656
+	Voluntary context switches: 2388
+	Involuntary context switches: 385
+	Swaps: 0
+	File system inputs: 425984
+	File system outputs: 2012952
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694821
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.84s
+Retained 42731674/42753174 sequences (99.950%), 5728748782/5731547792 bp (99.951%) in 39.90s. 1255511 seqs/s (168.3 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694821_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694821_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694821"
+	User time (seconds): 109.75
+	System time (seconds): 6.53
+	Percent of CPU this job got: 291%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:39.92
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4746276
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 16983
+	Voluntary context switches: 25212
+	Involuntary context switches: 3941
+	Swaps: 0
+	File system inputs: 556512
+	File system outputs: 27965488
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694822
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.77s
+Retained 38728944/38739566 sequences (99.973%), 5184145367/5185507612 bp (99.974%) in 36.37s. 1266451 seqs/s (169.5 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694822_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694822_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694822"
+	User time (seconds): 99.68
+	System time (seconds): 6.30
+	Percent of CPU this job got: 291%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:36.38
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4745276
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 19471
+	Voluntary context switches: 24356
+	Involuntary context switches: 3466
+	Swaps: 0
+	File system inputs: 556976
+	File system outputs: 25310808
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694823
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.82s
+Retained 46711774/46719892 sequences (99.983%), 6266648734/6267689396 bp (99.983%) in 40.98s. 1329144 seqs/s (178.3 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694823_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694823_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694823"
+	User time (seconds): 121.33
+	System time (seconds): 7.41
+	Percent of CPU this job got: 313%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:41.00
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4748788
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 22049
+	Voluntary context switches: 25465
+	Involuntary context switches: 4425
+	Swaps: 0
+	File system inputs: 524736
+	File system outputs: 30591088
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694824
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.80s
+Retained 1231044/1661866 sequences (74.076%), 165061379/222111575 bp (74.315%) in 7.09s. 1296614 seqs/s (173.3 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694824_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694824_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694824"
+	User time (seconds): 8.45
+	System time (seconds): 1.64
+	Percent of CPU this job got: 142%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:07.11
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4744888
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 12232
+	Voluntary context switches: 1066
+	Involuntary context switches: 191
+	Swaps: 0
+	File system inputs: 210144
+	File system outputs: 801864
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694825
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.83s
+Retained 46990060/46994756 sequences (99.990%), 6299275777/6299864856 bp (99.991%) in 44.60s. 1212123 seqs/s (162.5 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694825_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694825_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694825"
+	User time (seconds): 122.95
+	System time (seconds): 7.60
+	Percent of CPU this job got: 292%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:44.62
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4748664
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 16457
+	Voluntary context switches: 27445
+	Involuntary context switches: 4201
+	Swaps: 0
+	File system inputs: 753392
+	File system outputs: 30755256
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694826
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.80s
+Retained 13336374/13705798 sequences (97.305%), 1789088930/1838029778 bp (97.337%) in 17.18s. 1208791 seqs/s (162.1 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694826_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694826_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694826"
+	User time (seconds): 38.08
+	System time (seconds): 3.39
+	Percent of CPU this job got: 241%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:17.20
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4744776
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14088
+	Voluntary context switches: 9555
+	Involuntary context switches: 1243
+	Swaps: 0
+	File system inputs: 655344
+	File system outputs: 8715760
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694827
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.80s
+Retained 42234482/42271010 sequences (99.914%), 5665336053/5670151720 bp (99.915%) in 40.51s. 1219751 seqs/s (163.6 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694827_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694827_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694827"
+	User time (seconds): 111.65
+	System time (seconds): 7.17
+	Percent of CPU this job got: 293%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:40.52
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4748568
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 18994
+	Voluntary context switches: 25529
+	Involuntary context switches: 3697
+	Swaps: 0
+	File system inputs: 720848
+	File system outputs: 27652280
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694828
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.84s
+Retained 43332168/43371096 sequences (99.910%), 5792735454/5797829548 bp (99.912%) in 41.29s. 1225036 seqs/s (163.8 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694828_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694828_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694828"
+	User time (seconds): 112.82
+	System time (seconds): 6.69
+	Percent of CPU this job got: 289%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:41.30
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4748324
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 19010
+	Voluntary context switches: 23758
+	Involuntary context switches: 3902
+	Swaps: 0
+	File system inputs: 479712
+	File system outputs: 28294552
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694829
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.81s
+Retained 8408260/8755710 sequences (96.032%), 1128062382/1174210773 bp (96.070%) in 12.94s. 1229973 seqs/s (164.9 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694829_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694829_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694829"
+	User time (seconds): 25.70
+	System time (seconds): 2.66
+	Percent of CPU this job got: 218%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:12.96
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4747856
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13989
+	Voluntary context switches: 5863
+	Involuntary context switches: 821
+	Swaps: 0
+	File system inputs: 458752
+	File system outputs: 5493896
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694830
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.76s
+Retained 39406408/39481726 sequences (99.809%), 5283279846/5293239218 bp (99.812%) in 37.16s. 1257655 seqs/s (168.6 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694830_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694830_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694830"
+	User time (seconds): 102.74
+	System time (seconds): 6.18
+	Percent of CPU this job got: 292%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:37.19
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4746292
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 19171
+	Voluntary context switches: 23107
+	Involuntary context switches: 3769
+	Swaps: 0
+	File system inputs: 532976
+	File system outputs: 25787248
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694831
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.81s
+Retained 38839974/38910910 sequences (99.818%), 5205459909/5214827091 bp (99.820%) in 35.50s. 1310558 seqs/s (175.6 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694831_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694831_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694831"
+	User time (seconds): 101.61
+	System time (seconds): 6.06
+	Percent of CPU this job got: 303%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:35.52
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4745228
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 16188
+	Voluntary context switches: 21811
+	Involuntary context switches: 3681
+	Swaps: 0
+	File system inputs: 983040
+	File system outputs: 25408632
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694832
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.79s
+Retained 44307376/44323554 sequences (99.964%), 5944276086/5946390676 bp (99.964%) in 40.18s. 1290532 seqs/s (173.1 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694832_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694832_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694832"
+	User time (seconds): 116.41
+	System time (seconds): 6.78
+	Percent of CPU this job got: 306%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:40.20
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4747096
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 25463
+	Voluntary context switches: 24438
+	Involuntary context switches: 4173
+	Swaps: 0
+	File system inputs: 917456
+	File system outputs: 29015032
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694833
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.87s
+Retained 40360878/40396192 sequences (99.913%), 5410438324/5415105193 bp (99.914%) in 36.47s. 1321820 seqs/s (177.2 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694833_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694833_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694833"
+	User time (seconds): 106.28
+	System time (seconds): 6.48
+	Percent of CPU this job got: 308%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:36.50
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4744892
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 46489
+	Voluntary context switches: 23855
+	Involuntary context switches: 3510
+	Swaps: 0
+	File system inputs: 1158776
+	File system outputs: 26409672
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694834
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.63s
+Retained 4017992/4531972 sequences (88.659%), 538220856/606233488 bp (88.781%) in 9.02s. 1359180 seqs/s (181.8 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694834_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694834_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694834"
+	User time (seconds): 15.25
+	System time (seconds): 1.89
+	Percent of CPU this job got: 189%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:09.04
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4744160
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 11904
+	Voluntary context switches: 3133
+	Involuntary context switches: 444
+	Swaps: 0
+	File system inputs: 360448
+	File system outputs: 2620200
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694835
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.70s
+Retained 2750902/3120864 sequences (88.146%), 368638181/417655985 bp (88.264%) in 8.06s. 1344142 seqs/s (179.9 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694835_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694835_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694835"
+	User time (seconds): 11.68
+	System time (seconds): 1.83
+	Percent of CPU this job got: 167%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:08.08
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4745608
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13081
+	Voluntary context switches: 2409
+	Involuntary context switches: 310
+	Swaps: 0
+	File system inputs: 400584
+	File system outputs: 1793296
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694836
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.68s
+Retained 1529480/1952518 sequences (78.334%), 205187998/261322617 bp (78.519%) in 7.11s. 1401838 seqs/s (187.6 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694836_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694836_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694836"
+	User time (seconds): 8.96
+	System time (seconds): 1.56
+	Percent of CPU this job got: 147%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:07.13
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4743912
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 11769
+	Voluntary context switches: 1016
+	Involuntary context switches: 180
+	Swaps: 0
+	File system inputs: 248976
+	File system outputs: 996752
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694837
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.67s
+Retained 45413870/45436598 sequences (99.950%), 6083957611/6086925576 bp (99.951%) in 41.99s. 1252424 seqs/s (167.8 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694837_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694837_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694837"
+	User time (seconds): 118.30
+	System time (seconds): 6.57
+	Percent of CPU this job got: 297%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:42.01
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4747256
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 17233
+	Voluntary context switches: 26376
+	Involuntary context switches: 4098
+	Swaps: 0
+	File system inputs: 580936
+	File system outputs: 29706456
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694838
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 7.26s
+Retained 25881160/26240534 sequences (98.630%), 3471795064/3519288575 bp (98.650%) in 27.17s. 1321599 seqs/s (177.2 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694838_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694838_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694838"
+	User time (seconds): 69.88
+	System time (seconds): 4.93
+	Percent of CPU this job got: 275%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:27.18
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4745276
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 17581
+	Voluntary context switches: 16314
+	Involuntary context switches: 2629
+	Swaps: 0
+	File system inputs: 1507296
+	File system outputs: 16929360
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694839
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.31s
+Retained 21941840/22207366 sequences (98.804%), 2942058620/2977157487 bp (98.821%) in 23.25s. 1241382 seqs/s (166.4 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694839_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694839_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694839"
+	User time (seconds): 60.14
+	System time (seconds): 3.60
+	Percent of CPU this job got: 273%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:23.27
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4745940
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 17319
+	Voluntary context switches: 14287
+	Involuntary context switches: 2033
+	Swaps: 0
+	File system inputs: 491472
+	File system outputs: 14340872
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694840
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.30s
+Retained 43181582/43185048 sequences (99.992%), 5791833110/5792263661 bp (99.993%) in 37.87s. 1327544 seqs/s (178.1 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694840_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694840_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694840"
+	User time (seconds): 111.40
+	System time (seconds): 6.02
+	Percent of CPU this job got: 309%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:37.89
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4748928
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 20108
+	Voluntary context switches: 24705
+	Involuntary context switches: 4172
+	Swaps: 0
+	File system inputs: 983040
+	File system outputs: 28271168
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694841
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.30s
+Retained 21416312/21645706 sequences (98.940%), 2869492420/2899785747 bp (98.955%) in 22.53s. 1257016 seqs/s (168.4 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694841_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694841_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694841"
+	User time (seconds): 58.59
+	System time (seconds): 3.58
+	Percent of CPU this job got: 275%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:22.55
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4746276
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 18163
+	Voluntary context switches: 13453
+	Involuntary context switches: 2068
+	Swaps: 0
+	File system inputs: 589408
+	File system outputs: 13988144
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694842
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.34s
+Retained 46462252/46476596 sequences (99.969%), 6222763349/6224632989 bp (99.970%) in 42.09s. 1264641 seqs/s (169.4 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694842_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694842_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694842"
+	User time (seconds): 120.14
+	System time (seconds): 6.22
+	Percent of CPU this job got: 300%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:42.11
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4748524
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 22362
+	Voluntary context switches: 28001
+	Involuntary context switches: 4354
+	Swaps: 0
+	File system inputs: 454288
+	File system outputs: 30386832
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694843
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.26s
+Retained 3529200/3922740 sequences (89.968%), 473367775/525661603 bp (90.052%) in 8.18s. 1348931 seqs/s (180.8 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694843_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694843_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694843"
+	User time (seconds): 13.79
+	System time (seconds): 1.41
+	Percent of CPU this job got: 185%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:08.20
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4746936
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13255
+	Voluntary context switches: 2791
+	Involuntary context switches: 402
+	Swaps: 0
+	File system inputs: 393216
+	File system outputs: 2303352
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694844
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.30s
+Retained 684164/1136586 sequences (60.195%), 91395047/151229646 bp (60.435%) in 6.21s. 1256546 seqs/s (167.2 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694844_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694844_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694844"
+	User time (seconds): 7.09
+	System time (seconds): 1.14
+	Percent of CPU this job got: 132%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:06.23
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4744828
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 11399
+	Voluntary context switches: 516
+	Involuntary context switches: 134
+	Swaps: 0
+	File system inputs: 143400
+	File system outputs: 444232
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Processing sample: SRR13694845
+Deacon v0.15.0; mode: deplete; input: paired; options: abs_threshold=1, rel_threshold=0.02, threads=8
+Loaded index (k=31, w=15) in 5.31s
+Retained 1451762/1852724 sequences (78.358%), 194482172/247572844 bp (78.556%) in 6.80s. 1244579 seqs/s (166.3 Mbp/s)
+	Command being timed: "deacon filter -d /ddn_scratch/kan028/projects/2025-9-30_biobloom/panhuman-1 /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694845_1.fastq.gz /ddn_scratch/kan028/projects/2025-9-30_biobloom/PRJNA701480/SRR13694845_2.fastq.gz -a 1 -r 0.02 -o /home/kan028/projects/2025-9-30_biobloom/host_filtration_benchmark/deacon_results/PRJNA701480_deplete/hits_SRR13694845"
+	User time (seconds): 8.86
+	System time (seconds): 1.14
+	Percent of CPU this job got: 146%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:06.82
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4743768
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 11888
+	Voluntary context switches: 1065
+	Involuntary context switches: 194
+	Swaps: 0
+	File system inputs: 234928
+	File system outputs: 944992
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Finished running deacon
